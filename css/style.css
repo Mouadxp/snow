@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'Fascinate';
+    src: url(../fonts/fascinateinline-regular-webfont.woff2);
+}
+
 body{
-    background-color: rgb(107, 223, 184);
+    /*background-color: rgb(107, 223, 184);*/
+    background-image: url(../images/snowflakes.jpg);
+}
+
+.header{
+    background-color: rgba(34, 209, 209, 0.7);
+}
+
+h1{
+    font-family: 'Fascinate',sans-serif;
+    font-size: 6rem;
+    text-align: center;
+    line-height: 2;
 }
